@@ -1,0 +1,96 @@
+#masthead {
+
+background: #000000;
+	    min-height: 4em;
+
+	      #logo span.glyphicon {
+		          color: #FF66FF;
+			      font-size: 4em;
+			          margin: .25em 0 0 .25em;
+				    }
+
+				      .institution_name {
+					          font-family: 'Lato', Verdana, Arial, Helvetica;
+						      font-size: 4em;
+						          font-weight: 300;
+							      margin: 0 0 0 .25em;
+							        }
+
+								  .institution_name, .institution_name a:link, .institution_name a:visited {
+									      color: #FF0000;
+									          text-decoration: none;
+										    }
+
+										      .navbar {
+											          min-height: 0px;
+												      margin-bottom: 0.8em;
+												        }
+
+													  #user_utility_links {
+														      margin-top: 1.75em;
+
+														          &.open {
+																        > a {
+																		        border-color: #ccc;
+
+																			        &.dropdown-toggle {
+																		 background-color: #CCC;
+																						            border-color: #428bca;
+																							            }
+																								          }
+																									      }
+																									        }
+
+																										  #profile_link {
+																											      margin-left: -1px;
+																											        }
+																											}
+
+																											#masthead_controls .navbar-default .navbar-nav > .active > a,
+																											#masthead_controls .navbar-default .navbar-nav > .active > a:hover,
+																											#masthead_controls .navbar-default .navbar-nav > .active > a:focus {
+																												  background-color: #2674CA;
+																												    color: #FFF;
+																											    }
+
+																											    #masthead_controls {
+																												      border-top: 1px solid #1C5798;
+																												        border-bottom: 1px solid #1C5798;
+																													  background-color: #2674CA;
+																													    #search-submit-header {
+																														        background-color: #333;
+																															    border-top: 1px solid #CECDCD;
+																															        border-bottom: 1px solid #CECDCD;
+																																  }
+																																    .navbar {
+																																	        background-color: #2674CA;
+																																		    margin-bottom: 0;
+																																		        li {
+																																	      border-right: 2px solid #2674CA;
+																																				          }
+																																					      li:first-child {
+																																            border-left: 2px solid #2674CA;
+																																							        }
+																																								    a:link, a:visited {
+																																          background-color: #2674CA;
+																																		        color: #FFF;
+																																											    }
+																																											        a:hover {
+																																										      background-color: #000;
+																																													          }
+																																														    }
+																																														      .navbar-default {
+																																															          border: none;
+																																																    }
+																																															    }
+
+																																															    .login_button {
+																																																      margin: 1.75em 3em 0 0;
+																																															      }
+
+																																															      #search-form-header {
+																																																        margin-top: 7px;
+																																																}
+																																																#search-submit-header {
+																																																	  border: none;
+																																																  }
